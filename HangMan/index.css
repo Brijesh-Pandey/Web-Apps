@@ -1,0 +1,80 @@
+* {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.center {
+  display: flex;
+  /* justify-items: center; */
+  justify-content: center;
+}
+
+#Word {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.letter {
+  width: 40px;
+  border-bottom: 3px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Image {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+#hangmanImage {
+  height: 90%;
+}
+
+/* .livesAndImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40%;
+} */
+
+#lives {
+  margin-right: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.fas {
+  color: red;
+}
+
+#rem {
+  margin-top: 0px;
+}

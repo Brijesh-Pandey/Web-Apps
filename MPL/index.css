@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #be93c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #7bc6cc,
+    #be93c5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #7bc6cc,
+    #be93c5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("cover.jpg");
+  background-size: cover;
+}
+
+.game {
+  height: 90%;
+  width: 30%;
+  background: #42275a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #734b6d,
+    #42275a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #734b6d,
+    #42275a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#target-row {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+#board {
+  flex-wrap: wrap;
+  background-color: black;
+  height: 60%;
+  border-radius: 10px;
+}
+#target {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: lavender;
+  margin: 20px;
+  font-size: 40px;
+}
+
+#currentSum {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: darkslategray;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+}
+#score {
+  font-weight: bolder;
+  font-size: 15px;
+  height: 5%;
+}
+#timer {
+  height: 10%;
+}
+.row {
+  display: flex;
+}
+.cell {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.selected {
+  background-color: rgb(4, 100, 100);
+}

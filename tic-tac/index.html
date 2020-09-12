@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Tic tac toe</h1>
+    <!-- Takes input of names for player 1 and player 2 -->
+    <div class="container">
+        <input type="text" id="p1" name="player1" class="textBox" placeholder="Player 1 Name">
+        <input type="text" id="p2" name="player2" class="textBox" placeholder="Player 2 Name">
+    </div>
+    <!-- DImesnions for tic tac toe grid --></br>
+    
+    <div>
+      <select name="dimensions" id="dimensions" placeholder="Dimension" class="details">
+          <!-- <option value="" selected disabled hidden>Select Dimension</option> -->
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+  </div>
+  <div class="container">
+    <button id="game-start" onclick="startGame()" class="button">Play</button>
+    <button id="Reset"  value="Reset"  onclick="reset()" class="button">Reset</button>
+  </div>
+    <!-- Creating Structure for 3*3 grid -->
+    <div id="game-container" class="hide">
+      <div id="turn">
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

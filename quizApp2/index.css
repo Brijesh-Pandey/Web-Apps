@@ -1,0 +1,125 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0 0 0 0;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Correct{
+    background-color: green;
+}
+.Incorrect{
+    background-color: red;
+}
+.button{
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+h1{
+    font-family: "Sacramento", cursive;  
+    margin-bottom: 20px;
+}
+h2{   
+    font-size: 80px;
+    color: black;
+    font-family: sans-serif;
+}
+header h1 {
+    margin-top: 0;
+    font-size: 100px;
+    color: gray;
+    text-align: center;
+}
+#optionContainer{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.score{
+    margin-top: 70px;
+}
+.box1 {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c3e50,
+      #bdc3c7
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #2c3e50,
+      #bdc3c7
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    border-radius: 5px;
+    width: auto;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: transform 0.2s;
+    margin-bottom: 3%;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1:hover {
+    transform: scale(0.9);
+    cursor: default;
+  }
+.text {
+    font-size: 20px;
+    margin: 2.8% 0% 3.5% 0%;
+}
+.timer{
+    font-size: 30px;
+    color:black;
+}
+#modalbtn {
+    display: none;
+  }
+  
+  .modal-content {
+    background-color: gray;
+  }
+
+  .modal-body {
+      margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.image{
+    height: 100px;
+    width: 100px;
+    margin-left: 0;
+    border-radius: 5%;
+}

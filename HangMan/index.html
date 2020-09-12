@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/065281acf5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="center">Hang - Man</h1>
+      <h2 class="center">Press the keys on your keyboard to guess letters</h2>
+    </div>
+    <div class="Image">
+      <img src="hangman.png" alt="Image" id="hangmanImage" />
+    </div>
+    <div id="Word"></div>
+
+    <div>
+      <div id="lives">
+        <p id="text">Lives Remaining: <p id="rem"></p> </p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

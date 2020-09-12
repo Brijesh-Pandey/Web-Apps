@@ -1,0 +1,84 @@
+.textBox{
+    margin-top:5%;
+    margin-left: 5%;
+    width: 30%;
+    height: 30px;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center ;
+    justify-items: center;
+}
+
+.details{
+    color: #bcc1ca;
+    flex: display;
+    justify-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 45%;
+    margin-top: 3%;
+    border: 0px;
+    background: rgba(57, 63, 84, 0.8);
+    font-size: 1.8rem;
+  }
+label{
+    display:inline-flex;
+    width:200px;
+    text-align:right;
+    font-family: "Sacramento", cursive;
+}
+.button{
+    margin-top: 2%;
+    margin-left: 5% ;
+    justify-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s;
+}
+.cell:hover{
+    transform: scale(1.1);
+}
+.button:hover{
+    transform: scale(1.1);
+}
+#game-container{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+h1{
+    display: flex;
+    font-family: "Sacramento", cursive;
+    justify-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row ;
+}
+.cell{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    font-size: 24px;
+   
+    border: 1px solid black;
+    border-radius: 25px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
