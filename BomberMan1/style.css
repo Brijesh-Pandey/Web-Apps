@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2%;
+    margin-bottom: 0.5%;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px black;
+}
+#game{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 6%;
+    background: #74ebd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #acb6e5,
+        #74ebd5
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #acb6e5,
+        #74ebd5
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+h2{
+    margin-top: 0.2%;
+    display: flex;
+    margin-bottom: 0.3;
+}
+#Container{
+    height: 90%;
+    width: 98%;     
+    border-radius: 5px;
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 10.50%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid black;
+    height: 100%;
+    width: 10.50%;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    
+}
+.box:hover{
+    cursor: pointer;
+}
+.height{
+    height: 70px;
+}
+#restart{
+    height: 100%;
+    width: 15%;
+    box-shadow: 5px 10px black;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 10%;
+}
+#restart:hover{
+    transform: scale(1.2);
+}
