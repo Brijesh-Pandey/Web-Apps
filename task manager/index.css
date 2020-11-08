@@ -1,5 +1,5 @@
 body {
-  height: 150vh;
+  height: flex;
   background-image: linear-gradient(
     to bottom,
     #eff1ff,
@@ -81,9 +81,25 @@ input {
 #taskContainer {
   display: flex;
   flex-flow: column;
+  /* height: 50vh; */
 }
 
 .deleteBtn {
   margin: 0px;
   border-radius: 5px;
+}
+/*  */
+
+.Progress_Status {
+  width: 80%;
+  background-color: #ddd;
+}
+
+.myprogressBar {
+  width: 1%;
+  height: 35px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
 }
