@@ -1,0 +1,44 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: burlywood;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.screen {
+  width: 20%;
+  height: 50px;
+
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 5px gray;
+  margin: auto;
+  background-color: rosybrown;
+}
+span {
+  font-weight: bold;
+  font-size: 48px;
+}
+.calculator-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button {
+  background-color: #bbb;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  border-spacing: 2px;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px gray;
+}
